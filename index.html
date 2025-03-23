@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Calculator/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" type="image/png" href="/Calculator/favicon.png">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 class="head_text">Calculator</h1>
+
+        <!-- Social Media Sidebar -->
+
+        <div id="social-media">
+            <a href="https://github.com/forjoee" id="github" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/forjoe/" id="instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/joseph-dahdal/" id="linkedin" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+
+        <!-- Main -->
+
+        <section class="container">
+            <table>
+                <tr>
+                    <th colspan="4">
+                        <input type="text" id="input" class="input" placeholder="0" disabled>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('7')">7</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('8')">8</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('9')">9</a>
+                    </td>
+                    <td>
+                        <a class="operator" id="operator" onclick="appendOperation('+')">+</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('4')">4</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('5')">5</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('6')">6</a>
+                    </td>
+                    <td>
+                        <a class="operator" id="operator" onclick="appendOperation('-')">-</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('1')">1</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('2')">2</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('3')">3</a>
+                    </td>
+                    <td>
+                        <a class="operator" id="number" onclick="appendOperation('*')">*</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="clear" onclick="clearInput()">C</a>
+                    </td>
+                    <td>
+                        <a class="number" id="number" onclick="appendOperation('0')">0</a>
+                    </td>
+                    <td>
+                        <a class="operator" id="equal" onclick="calculate()">=</a>
+                    </td>
+                    <td>
+                        <a class="operator" id="operator" onclick="appendOperation('/')">/</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <div id="footer">
+            <p>Copyright © 2025 Joseph Dahdal</p>
+            <p>Made with Love ❤️</p>
+            <p>
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Contact Support</a>
+            </p>
+        </div>
+
+        <script src="/Calculator/index.js"></script>
+    </body>
+</html>
