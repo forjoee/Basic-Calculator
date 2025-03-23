@@ -39,4 +39,4 @@ A simple and efficient **Basic Calculator** that performs fundamental arithmetic
 
 You can visit the **Basic Calculator** website online and try it yourself:
 
-🔗 **[Website](https://forjoee.github.io/Basic-Calculator-Website-/)**
+🔗 **[Website](https://forjoee.github.io/Basic-Calculator/)**
